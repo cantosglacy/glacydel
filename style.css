@@ -25,7 +25,7 @@ body{
 .container-fluid{  width: 100%;
    position: fixed;
    z-index: 100;  transition: .5s ease-in;
-   transition-delay: 1s;
+   transition-delay: .6s;
  
 }
 @media screen and (max-width: 600px) {
