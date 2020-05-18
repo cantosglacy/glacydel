@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+      <div class="animation" id="home" >
+      
+        <div class="container-fluid" style="width: 100%;" id="sticky">
+          
+       
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: transparent;">
+    <a href="" class="navbar-brand" style="color: white;">Glacydel</a>
+    <button class="navbar-toggler" type="button"
+    data-toggle="collapse" data-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#name" class="nav-link">About</a></li>
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Services</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="" class="dropdown-item" style="color: grey;">Ecommerce</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="" class="dropdown-item"style="color: grey;">Blog</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="" class="dropdown-item"style="color: grey;">Portfolio</a>
+                    
+                </div>
+            </li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+  
+    </div>
+  </nav>   
+    </div>
+  
+     
+      <div class="name" >
+        <div class="name-wrapper">
+          <h1>Glacydel Cantos</h1>   
+          <h3>Welcome to my portfolio!</h3>
+    </div> 
+ </div>
+
+
+        <ul class="box-area">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
+    </div>
+
+    <div class="height" id="name">   
+        <div class="aboutme">
+        <div class="aboutme-inner-wrapper">
+                <div class="title" >
+                <h2>Hello from Glacydel</h2>
+                <img src="/images/glacydel.png" class="img-fluid rounded"/>
+                </div>
+        </div>
+        
+        <div class="main"> <p>Thank you for visiting my page. My name is Glacydel.<br/> I am from Philippines. I deliver clean, responsive and interactive websites.<br/> If you need website for your business, blog, or service,I am here to help you.</p>
+        </div>
+        
+      </div>  </div>          <section id="service">
+           <div class="section-wrapper">
+            <h1>Services</h1>
+            <div class="services">
+                <div class="service-1">  
+                    <div class="img">
+                        <a href="#name" target="_blank">
+                            <img src="/images/ecommerce.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h2>Ecommerce</h2>
+                            <p>Whether you're a single proprietor or a corporate business owner, we have the right solutions in making the perfect website for you. Feel free to browse several templates for your online business .</p></div>
+                       
+                    </div></a>
+                <div class="service-1">  
+                  <div class="img">
+                    <a href="" target="_blank">
+                        <img src="/images/blog.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Blog Websites</h2>
+                        <p>Are you an adventurist and love to travel? Are you a seasoned chef who loves to share your own recipes? Thinking of creating a DIY website? We love to work with you! Check some website here for blogging purposes.</p></div>
+                   
+                </div>
+                    </a>
+           
+                <div class="service-1">  
+                    <div class="img">
+                        <a href="" target="_blank">
+                        <img src="/images/photographer.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Portfolio</h2>
+                        <p>What service are your offering? Are you a photographer? An art director? Maybe a pianist?
+                            Choose from templates of different porfolios for your service. From modern to minimalist design, we are sure you'll love having one.</p></div>
+                   
+                </div>
+             </a>
+            </div>
+  
+           </div>
+              
+          </section>
+<div class="inspiration">
+    <h3>Because the people who are crazy enough to think they can change the world are the ones who do.</h3>
+       <br>
+        <span>   
+        <p>
+        -Steve Jobs
+    </p>
+</span>
+    
+</div>
+
+        <div class="contact" id="contact">
+            <h2>Let's Work Together</h2>
+            <div class="content">
+                <h4>Mailing Address <i class="fa fa-address-card"></i></h4>
+                <p>Sariaya, Quezon Philippines</p>
+                
+                <h4>Email Address <i class="fa fa-envelope"></i></h4>
+                <p>cantosglacy@gmail.com</p>
+                
+                <h4>Contact Number <i class="fa fa-phone"></i></h4>
+                <p>+639129718171</p>
+            </div>
+        </div>
+      
+
+       <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        } 
+        </script>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>     
+
+     <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        let header = document.querySelector(".container-fluid");
+        header.classList.toggle("sticky", window.scrollY > 0
+        )
+    })
+    </script>
+</body>
+</html>
