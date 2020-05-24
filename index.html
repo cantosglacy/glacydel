@@ -7,7 +7,7 @@
     <meta name="description" content="Glacydel Cantos Profile">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -70,20 +70,21 @@
     <div class="height" id="name">   
         <div class="aboutme">
         <div class="aboutme-inner-wrapper">
-                <div class="title" >
+                <div class="title animatable bounceInLeft" >
                 <h2>Hello from Glacydel</h2>
                 <img src="/images/glacydel.png" class="img-fluid rounded"/>
                 </div>
         </div>
         
-        <div class="main"> <p>Thank you for visiting my page. My name is Glacydel.<br/> I am from Philippines. I deliver clean, responsive and interactive websites.<br/> If you need website for your business, blog, or service,I am here to help you.</p>
+        <div class="main animatable bounceInRight"> <p>Thank you for visiting my page. My name is Glacydel.<br/> I am from Philippines. I deliver clean, responsive and interactive websites.<br/> If you need website for your business, blog, or service,I am here to help you.</p>
         </div>
         
       </div>  </div>          <section id="service">
            <div class="section-wrapper">
             <h1>Services</h1>
             <div class="services">
-                <div class="service-1">  
+                <div class="animatable moveUp">  
+                 <div class="service-1">
                     <div class="img">
                         <a href="#name" target="_blank">
                             <img src="/images/ecommerce.jpg" alt="">
@@ -91,21 +92,25 @@
                         <div class="description">
                             <h2>Ecommerce</h2>
                             <p>Whether you're a single proprietor or a corporate business owner, we have the right solutions in making the perfect website for you. Feel free to browse several templates for your online business .</p></div>
+                 </div>
                        
                     </div></a>
-                <div class="service-1">  
-                  <div class="img">
-                    <a href="" target="_blank">
-                        <img src="/images/blog.jpg" alt="">
-                    </div>
-                    <div class="description">
-                        <h2>Blog Websites</h2>
-                        <p>Are you an adventurist and love to travel? Are you a seasoned chef who loves to share your own recipes? Thinking of creating a DIY website? We love to work with you! Check some website here for blogging purposes.</p></div>
-                   
+                <div class="animatable moveUp2">  
+                <div class="service-1">
+                    <div class="img">
+                        <a href="" target="_blank">
+                            <img src="/images/blog.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h2>Blog Websites</h2>
+                            <p>Are you an adventurist and love to travel? Are you a seasoned chef who loves to share your own recipes? Thinking of creating a DIY website? We love to work with you! Check some website here for blogging purposes.</p></div>
+                       
+                </div>
                 </div>
                     </a>
            
-                <div class="service-1">  
+                <div class="animatable moveUp3">  
+                   <div class="service-1">
                     <div class="img">
                         <a href="" target="_blank">
                         <img src="/images/photographer.jpg" alt="">
@@ -115,27 +120,53 @@
                         <p>What service are your offering? Are you a photographer? An art director? Maybe a pianist?
                             Choose from templates of different porfolios for your service. From modern to minimalist design, we are sure you'll love having one.</p></div>
                    
+                   </div>
                 </div>
              </a>
-            </div>
+            </div>  
   
            </div>
               
           </section>
-<div class="inspiration">
+<div class="inspiration animatable fadeInDown">
+   <div class="inspiration-quote animatable bounceInRight">
     <h3>Because the people who are crazy enough to think they can change the world are the ones who do.</h3>
-       <br>
-        <span>   
-        <p>
-        -Steve Jobs
-    </p>
+    <br>
+     <span>   
+     <p>
+     -Steve Jobs
+ </p>
 </span>
+   </div>
     
 </div>
 
+    <div id="form-main" class="column">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="contact-name"></p>
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+            
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+            </p>
+            
+            
+            <div class="submit">
+              <input type="submit" value="SEND" id="button-blue"/>
+              <div class="ease"></div>
+            </div>
+          </form>
+        </div>
         <div class="contact" id="contact">
-            <h2>Let's Work Together</h2>
-            <div class="content">
+         
+            <div class="content">   <h2>Let's Work Together</h2>
                 <h4>Mailing Address <i class="fa fa-address-card"></i></h4>
                 <p>Sariaya, Quezon Philippines</p>
                 
@@ -146,6 +177,11 @@
                 <p>+639129718171</p>
             </div>
         </div>
+</div>
+<footer>
+   <div class="footer"> &copy; Glacydel Cantos 2020</div>
+</footer>
+        
       
 
        <script>
@@ -171,5 +207,6 @@
         )
     })
     </script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

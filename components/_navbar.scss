@@ -1,0 +1,29 @@
+
+  #navbarContent a {
+    color: white;
+  }
+  
+  .sticky {
+    background-color: #F87A6C;
+    box-shadow: 2px 2px 10px 5px rgba(128, 128, 128, 0.212);
+  
+  }
+  
+  .container-fluid {
+    width: 100%;
+    position: fixed;
+   z-index: 1000;
+    transition: .5s ease-in;
+    transition-delay: .6s;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #navbarContent {
+    }
+}
+
+.navbar a {
+    color: rgb(199, 199, 199);
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+  }
