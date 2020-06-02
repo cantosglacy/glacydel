@@ -11,7 +11,7 @@ jQuery(function($) {
     var doAnimations = function() {
       
       // Calc current offset and get all animatables
-      var offset = $(window).scrollTop() + $(window).height()   ,
+      var offset = $(window).scrollTop() +( $(window).height()*1.25)   ,
           $animatables = $('.animatable');
       
       // Unbind scroll handler if we have no animatables

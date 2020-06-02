@@ -8,7 +8,7 @@
     "node-sass": "^4.14.1"
   },
   "scripts": {
-    "compile_sass": "node-sass sass/style.scss css/style.css -w"},
+    "compile_sass": "node-sass sass/portfolio.scss css/portfolio.css -w"},
   "author": "",
   "license": "ISC"
 }
